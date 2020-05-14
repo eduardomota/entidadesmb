@@ -1,6 +1,6 @@
 # EntidadesMB
 
-This is the source for EntidadesMB node server and react application. Open sourced partially, includes a sample json "database" for tests.
+This is the source for EntidadesMB node server and react-native application. Open sourced partially, includes a sample json "database" for tests.
 
 ## Quick Start
 
