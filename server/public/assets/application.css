@@ -1,0 +1,139 @@
+.main {
+  background-color: rgb(0, 0, 0);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container {
+  position: relative;
+  top: 35%;
+  text-align: center;
+}
+
+#eCodigo {
+  text-align: center;
+  width: 15rem;
+  height: 5rem;
+  font-size: 5rem;
+  color: white;
+  color: rgb(255, 255, 255);
+}
+
+h3, a {
+  transition: text-shadow 0.5s;
+}
+
+h3:hover, a:hover{
+  transition: text-shadow 0.25s;
+  text-shadow: 0px 0px 3px cornsilk;
+}
+
+input {
+  font-size: 5rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+input:focus {
+  border-bottom-color: white;
+}
+
+input::-webkit-input-placeholder {
+  -webkit-transition: opacity 0.2s linear;
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+#eNome {
+  cursor: default;
+  color: white;
+  color: rgb(255, 255, 255);
+  font-family: 'Open Sans', sans-serif;
+}
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid white;
+  -webkit-box-shadow: 0 1px 0 0 white;
+  box-shadow: 0 1px 0 0 white;
+}
+
+.head {
+  position: absolute;
+  margin: 1rem auto;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  font-family: 'Coming Soon', cursive;
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+  color: rgb(255, 255, 255);
+  line-height: 2rem;
+}
+
+.head>p {
+  margin: 0;
+}
+
+.subtext {
+  font-size: 1rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+}
+
+.footer>.container>a {
+  font-size: 1rem;
+  color: white;
+}
+
+.footer>.container {
+  color: white;
+  font-family: 'Coming Soon', cursive;
+}
+
+.footer>.container>p {
+  margin: 0;
+}
+
+.footer>.container>p>a {
+  color: white;
+}
+
+.mainhead {
+  margin-bottom: 0;
+}
+
+h3>a {
+  color: white;
+}
+
+@media screen and (max-width: 1080px) {
+  html {
+    font-size: 100%;
+  }
+}
